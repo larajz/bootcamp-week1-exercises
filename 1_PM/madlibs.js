@@ -8,11 +8,15 @@ nouns, adjectives, and verbs */
 const noun1 = ______
 const verb1 = ______
 
-Change thses values to generate a different story
+Change these values to generate a different story
 */
 
+const noun = "plate"
+const pastverb = "ate"
+const adj = "great"
+
 const story = `
-**replace this with your story using a template string**
+It was a ${adj} day when the ${noun} ${pastverb}.
 `
 
 console.log(story)
